@@ -12,6 +12,7 @@ public class Screen1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_screen1);
+
         final Button buttonScreen2 = (Button) findViewById(R.id.button_screen2);
         buttonScreen2.setOnClickListener(new View.OnClickListener() {
 
