@@ -20,7 +20,7 @@ public class Screen1 extends AppCompatActivity {
 
         if(b!=null)
         {
-            String j =(String) b.get("name");
+            String j =(String) b.getString("data");
             textViewData.setText(j);
         }
 
